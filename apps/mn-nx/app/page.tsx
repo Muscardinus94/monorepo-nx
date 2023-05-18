@@ -1,5 +1,7 @@
 import styles from './page.module.css';
 
+import {Button} from "../../../libs/ui/src/lib/Button";
+
 export default async function Index() {
   /*
    * Replace the elements below with your own.
@@ -48,7 +50,7 @@ export default async function Index() {
               </svg>
             </div>
           </div>
-
+<Button label="sdf" primary/>
           <div id="middle-content">
             <div id="learning-materials" className="rounded shadow">
               <h2>Learning materials</h2>
