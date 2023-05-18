@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@mn-nx/eslib": ["libs/eslib/src/index.ts"],
+      "@mn-nx/lib": ["libs/lib/src/index.ts"],
+      "@mn-nx/test-lib": ["libs/test-lib/src/index.ts"],
       "@mn-nx/ui": ["libs/ui/src/index.ts"]
     }
   },

@@ -1,6 +1,8 @@
+
 import styles from './page.module.css';
 
 import {Button} from "../../../libs/ui/src/lib/Button";
+import {Count} from "../components"
 
 export default async function Index() {
   /*
@@ -13,6 +15,7 @@ export default async function Index() {
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
+            <Count/>
             <h1>
               <span> Hello there, </span>
               Welcome mn-nx 👋
