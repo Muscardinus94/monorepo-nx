@@ -66,6 +66,6 @@
   "packageManager": "yarn@3.5.1",
   "scripts": {
     "build-storybook": "nx run-many --target=build-storybook --all",
-    "chromatic": "npx chromatic --exit-zero-on-changes -d ./dist/storybook/ui --project-token=chpt_95c553f517a7ac2"
+    "chromatic": "npx chromatic --exit-zero-on-changes -d ./dist/storybook/ui --project-token=CHROMATIC_PROJECT_TOKEN"
   }
 }

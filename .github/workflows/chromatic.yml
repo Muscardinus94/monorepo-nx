@@ -19,4 +19,4 @@ jobs:
         run: yarn
         # 👇 Adds Chromatic as a step in the workflow
       - name: Publish to Chromatic
-        run: yarn build-storybook && yarn chromatic
+        run: yarn build-storybook && npx chromatic --exit-zero-on-changes -d ./dist/storybook/ui --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }}
